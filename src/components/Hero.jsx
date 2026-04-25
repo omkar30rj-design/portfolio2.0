@@ -1,4 +1,5 @@
 import React from 'react'
+import Profileimage from "../assets/imgs/Profile.png"
 
 const Hero = () => {
   return (
@@ -25,7 +26,7 @@ const Hero = () => {
           ></div>
           <img
             className="profileimg relative z-10 mx-auto h-[280px] w-[220px] object-cover object-top md:h-[360px] md:w-[280px] lg:h-[470px] lg:w-[420px] [mask-image:linear-gradient(to_bottom,black_70%,transparent_100%)]"
-            src="./src/assets/imgs/Profile.png"
+            src={Profileimage} alt="img"
           />
         </div>
       </div>
